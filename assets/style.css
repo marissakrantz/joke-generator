@@ -26,14 +26,13 @@ body{
     font-size: 30px;
 }
 
-@media screen and (max-width: 768px) {
-    #recipe-name {
-        font-size: 2rem;
+@media screen and (max-width: 640px) {
+    body {
+        min-width: 640px;
     }
-}
 
-@media screen and (max-width: 576px) {
-    #recipe-name {
-        font-size: 1rem;
+    .body {
+        position: absolute;
     }
+
 }
