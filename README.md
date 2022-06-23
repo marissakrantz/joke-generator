@@ -17,7 +17,6 @@ S THAT I can find the best jokes
 
 ><img src="assets/landing-page.png" alt="Screenshot of webpage">
 
-
 ## Installation
 
 > This website doesnt require installation of any programs or software. It can be viewed on any web browser. 
