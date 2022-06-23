@@ -25,3 +25,15 @@ body{
     font-family: 'Franklin Gothic Medium';
     font-size: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    #recipe-name {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #recipe-name {
+        font-size: 1rem;
+    }
+}
