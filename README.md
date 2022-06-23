@@ -31,7 +31,7 @@ S THAT I can find the best jokes
 * [GitHub Pages](https://pages.github.com)
 * [W3 Schools](https://www.w3schools.com/)
 * [MDN Web Docs](https://developer.mozilla.org/en-US/)
-* [GIPHY API](https://developers.giphy.com/))
+* [GIPHY API](https://developers.giphy.com/)
 * [Joke API](https://v2.jokeapi.dev/)
 
 ## Authors
