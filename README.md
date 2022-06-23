@@ -10,7 +10,7 @@
 ```md
 AS someone who loves a good joke
 I WANT TO see a joke and a gif
-S THAT I can find the best jokes
+so THAT I can find the best jokes
 ```
 
 ## Screenshot of Webpage 
