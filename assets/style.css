@@ -1,0 +1,27 @@
+*{
+    font-family: 'Londrina Shadow', cursive;
+    color: white;
+    margin: 0;
+}
+
+body{
+    background: #FFD600;
+}
+
+.image-main{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    padding-left: 3rem;
+}
+
+.row .col.s8 {
+    height: 50vh;
+}
+
+.button{
+    background-color: white;
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 30px;
+}
