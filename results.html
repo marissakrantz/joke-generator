@@ -7,28 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
     <title>Random Jokes!</title>
 </head>
 
-<body>
+<body class="body">
     <header>
-        <div class="row">
-            <div class="col s4  left-align">
-                <img src="assets/background-crp.jpg" alt="Responsive Image" class="image-main">
-            </div>
-            <div class="col s8 left-align valign-wrapper">
-                <h1 style=font-size:7vw; class="text-title">LET'S ROLL SOME JOKES</h1>
-            </div>
-        </div>
+        <h1 style= font-size:7vw; class="center-align results-title">LET'S ROLL SOME JOKES</h1>
     </header>
+    
     <main>
-        <div class="center-align">
-            <a class="waves-effect waves-teal button" id="go-back">Go Back</a>
-            <a class="waves-effect waves-teal button" id="new-joke">Hit me again!</a>
+    <section class="row">
+        <div class="col 6 center-align joke">
+            <h3 style= font-size:2.5vw; class="joke black-text">"Why did the music teacher go up the ladder during music class? <br>
+                ...<br>
+                To reach the high notes."</h3>
         </div>
-        <div class="row">
-            <div class="column"></div>
-            <div class="column"></div>
+        <div class="col 6 center-align">
+            <img src="assets/giphy-placeholder.gif" alt="gif" class="gif-image"> 
+        </div>
+    </section>
+        <div class="center-align">
+            <a class="waves-effect waves-light btn-large button" id="go-back">Go Back</a>
+            <a class="waves-effect waves-light btn-large button" id="new-joke">Hit me again!</a>
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
