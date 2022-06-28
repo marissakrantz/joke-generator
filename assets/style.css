@@ -33,11 +33,12 @@ body {
 .divText {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     font-size: 50px;
+    padding: 30px;
 }
 
 .textTitle {
     font-family: 'Londrina Shadow', cursive;
-    color: white;
+    color: black;
 }
 
 .results-title {
