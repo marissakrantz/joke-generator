@@ -19,12 +19,10 @@ function getApi() {
       if (data != '') {
         console.log("Output" + data.joke);
       }
-      //jokeStr = data.joke;
+
       jokeResult.textContent = ""
 
       var createDiv = document.createElement('div');
-      //createDiv.addClass("blue-text text-darken-2");
-      //createDiv.addClass("divText");
       createDiv.textContent = data.joke;
       jokeResult.appendChild(createDiv);
       jokeStr = data.category;
@@ -59,9 +57,15 @@ function generateGifImage(jokeInput) {
 
 }
 
-window.localStorage.setItem('joke', JSON.stringify(this.id));
-window.localStorage.getItem('joke', JSON.stringify(this.id));
-
 fetchButton.addEventListener('click', getApi);
 
+//window.localStorage.setItem('joke', JSON.stringify(this.id));
+//window.localStorage.getItem('joke', JSON.stringify(this.id));
 
+
+$("#clearHistory").on("click", function (event) {
+  event.preventDefault();
+  randomJokeList = [];
+  localStorage.removeItem("randomJokeList");
+  document.location.reload();
+});

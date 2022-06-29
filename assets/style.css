@@ -59,6 +59,11 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+#jokeHistory {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
 
 @media screen and (max-width: 640px) {
     body {
