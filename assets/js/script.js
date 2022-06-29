@@ -62,7 +62,6 @@ fetchButton.addEventListener('click', getApi);
 //window.localStorage.setItem('joke', JSON.stringify(this.id));
 //window.localStorage.getItem('joke', JSON.stringify(this.id));
 
-
 $("#clearHistory").on("click", function (event) {
   event.preventDefault();
   randomJokeList = [];
