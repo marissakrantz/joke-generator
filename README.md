@@ -8,9 +8,9 @@
 
 ## User Story: 
 ```md
-AS someone who loves a good joke
-I WANT TO see a joke and a gif
-so THAT I can find the best jokes
+As someone who loves a good joke
+I WANT to see a joke and a gif
+so THAT I can find and present random jokes and gifs
 ```
 
 ## Screenshot of Webpage 
