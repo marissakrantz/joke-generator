@@ -24,20 +24,25 @@
     </header>
 
     <main>
-        <div>
+        <div class="search-container">
             <h4 style=font-size:3vw; class="center-align textTitle">Feeling Sad? Or maybe just want a laugh?</h4>
-            <div class="center-align">
-                <a id="jokeGenLink" class="waves-effect waves-light btn-large button">Go on... Tell me a joke!</a>
-            </div>
+            <form class="center-align">
+                <div class="row" id="searchField">
+                    <div class="input-field col s4 offset-s4">
+                        <input placeholder="What category of joke do you want?" id="search-joke-input" type="text" />
+                    </div>
+                </div>
+                <a id="submit" class="waves-effect waves-light btn-small button">Submit</a>
+                <a id="jokeGenLink" class="waves-effect waves-light btn-small button">Give me a random
+                    joke!</a>
+                <a id="clear" class="waves-effect waves-light btn-small button">Clear History</a>
+                <div id="search-history"></div>
+            </form>
+        </div>
         </div>
         <div class="jokeContainer">
             <div id="joke-item" class="divText"></div>
             <div id="gif-image" class="divText"></div>
-        </div>
-        <div id="jokeHistory" class="center-align textTitle">
-            <h4>We've heard that before!</h4>
-            <p id="jokeResults" class="divText"></p>
-            <a id="clearHistory" class="waves-effect waves-light btn-small button">Clear Jokes</a>
         </div>
     </main>
 
