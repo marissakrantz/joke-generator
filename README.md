@@ -41,8 +41,4 @@ so THAT I can find and present random jokes and gifs
 
 ## Project Status
 
-> Website is NOT currently live. 
-
-## Contact 
-
-> Project Link: []()
+> Website is currently live here: https://marissakrantz.github.io/joke-generator/
